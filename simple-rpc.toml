@@ -1,0 +1,304 @@
+[general]
+	#The Application ID of the Discord App to use. Replace this with your client id from the discord dashboard to change the name of the app
+	applicationID = 762726289341677668
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen. ONLY AVAILABLE WHEN CLOTH CONFIG IS INSTALLED!
+	configScreen = true
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Internal Version Number. NO TOUCHY!
+	version = 18
+
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Minecraft запускается..."
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["https://img.icons8.com/flat-round/512/minecraft-logo.png"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Minecraft %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Установлено %mods% модов"
+	#The buttons to display on Discord 
+	buttons = []
+
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player%"
+	#The second line of text under the app name
+	state = "В главном меню"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["https://img.icons8.com/flat-round/512/minecraft-logo.png"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Minecraft %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Установлено %mods% модов"
+	#The buttons to display on Discord 
+	buttons = []
+
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player%"
+	#The second line of text under the app name
+	state = "В списке серверов"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["https://img.icons8.com/flat-round/512/minecraft-logo.png"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Minecraft %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Установлено %mods% модов"
+	#The buttons to display on Discord 
+	buttons = []
+
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player%"
+	#The second line of text under the app name
+	state = "В списке Realms"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["https://img.icons8.com/flat-round/512/minecraft-logo.png"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Minecraft %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Установлено %mods% модов"
+	#The buttons to display on Discord 
+	buttons = []
+
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player%"
+	#The second line of text under the app name
+	state = "Присоединяется..."
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["https://img.icons8.com/flat-round/512/minecraft-logo.png"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Minecraft %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Установлено %mods% модов"
+	#The buttons to display on Discord 
+	buttons = []
+
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "В мире %world%"
+	#The second line of text under the app name
+	state = "В одиночной игре"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["https://img.icons8.com/flat-round/512/minecraft-logo.png"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Minecraft %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Установлено %mods% модов"
+	#The buttons to display on Discord 
+	buttons = []
+
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Играет на %serverip%"
+	#The second line of text under the app name
+	state = "В сетевой игре"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["https://img.icons8.com/flat-round/512/minecraft-logo.png"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Minecraft %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Установлено %mods% модов"
+	#The buttons to display on Discord 
+	buttons = []
+
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Играет на %realmname%"
+	#The second line of text under the app name
+	state = "В сетевой игре (Realms)"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["https://img.icons8.com/flat-round/512/minecraft-logo.png"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Minecraft %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Установлено %mods% модов"
+	#The buttons to display on Discord 
+	buttons = []
+
+[generic]
+	#The first line of text under the app name
+	description = "%player%"
+	#The second line of text under the app name
+	state = "Играет в Minecraft"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["https://img.icons8.com/flat-round/512/minecraft-logo.png"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Minecraft %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Установлено %mods% модов"
+	#The buttons to display on Discord 
+	buttons = []
+
+[custom]
+	#Must these variables be parsed along with other variables
+	enabled = false
+	#Your custom variables to add
+	variables = []
+
+[dimension_overrides]
+	enabled = false
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "%player% is in The Overworld"
+		state = ""
+		largeImageKey = ["overworld"]
+		largeImageText = "In the Overworld"
+		smallImageKey = ["mclogo"]
+		smallImageText = "Установлено %mods% модов"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "%player% is in The Nether"
+		state = ""
+		largeImageKey = ["nether"]
+		largeImageText = "In the Nether"
+		smallImageKey = ["mclogo"]
+		smallImageText = "Установлено %mods% модов"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "%player% is in The End"
+		state = ""
+		largeImageKey = ["end"]
+		largeImageText = "In the End"
+		smallImageKey = ["mclogo"]
+		smallImageText = "Установлено %mods% модов"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "%player% is in The Overworld"
+		state = ""
+		largeImageKey = ["overworld"]
+		largeImageText = "In the Overworld"
+		smallImageKey = ["mclogo"]
+		smallImageText = "Установлено %mods% модов"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "%player% is in The Nether"
+		state = ""
+		largeImageKey = ["nether"]
+		largeImageText = "In the Nether"
+		smallImageKey = ["mclogo"]
+		smallImageText = "Установлено %mods% модов"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "%player% is in The End"
+		state = ""
+		largeImageKey = ["end"]
+		largeImageText = "In the End"
+		smallImageKey = ["mclogo"]
+		smallImageText = "Установлено %mods% модов"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "%player% is in The Overworld"
+		state = ""
+		largeImageKey = ["overworld"]
+		largeImageText = "In the Overworld"
+		smallImageKey = ["mclogo"]
+		smallImageText = "Установлено %mods% модов"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "%player% is in The Nether"
+		state = ""
+		largeImageKey = ["nether"]
+		largeImageText = "In the Nether"
+		smallImageKey = ["mclogo"]
+		smallImageText = "Установлено %mods% модов"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "%player% is in The End"
+		state = ""
+		largeImageKey = ["end"]
+		largeImageText = "In the End"
+		smallImageKey = ["mclogo"]
+		smallImageText = "Установлено %mods% модов"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "%player% is in The Overworld"
+		state = ""
+		largeImageKey = ["overworld"]
+		largeImageText = "In the Overworld"
+		smallImageKey = ["mclogo"]
+		smallImageText = "Установлено %mods% модов"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "%player% is in The Nether"
+		state = ""
+		largeImageKey = ["nether"]
+		largeImageText = "In the Nether"
+		smallImageKey = ["mclogo"]
+		smallImageText = "Установлено %mods% модов"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "%player% is in The End"
+		state = ""
+		largeImageKey = ["end"]
+		largeImageText = "In the End"
+		smallImageKey = ["mclogo"]
+		smallImageText = "Установлено %mods% модов"
+		buttons = []
+
+
